@@ -1,0 +1,233 @@
+Command: showTree
+
+Result from a showTree:
+null::null
+
+Command: add edit change
+Result from an add: true
+
+Command: showTree
+
+Result from a showTree:
+null::null
+......e::null
+........d::null
+..........i::null
+............t::change
+
+Command: add Edit changing
+Result from an add: true
+
+Command: showTree
+
+Result from a showTree:
+null::null
+......e::null
+........d::null
+..........i::null
+............t::change
+......E::null
+........d::null
+..........i::null
+............t::changing
+
+Command: add edit revise
+Result from an add: true
+
+Command: showTree
+
+Result from a showTree:
+null::null
+......e::null
+........d::null
+..........i::null
+............t::revise
+......E::null
+........d::null
+..........i::null
+............t::changing
+
+Command: add edited revised
+Result from an add: true
+
+Command: showTree
+
+Result from a showTree:
+null::null
+......e::null
+........d::null
+..........i::null
+............t::revise
+..............e::null
+................d::revised
+......E::null
+........d::null
+..........i::null
+............t::changing
+
+Command: add edict order
+Result from an add: true
+
+Command: showTree
+
+Result from a showTree:
+null::null
+......e::null
+........d::null
+..........i::null
+............t::revise
+..............e::null
+................d::revised
+............c::null
+..............t::order
+......E::null
+........d::null
+..........i::null
+............t::changing
+
+Command: add editor writer
+Result from an add: true
+
+Command: showTree
+
+Result from a showTree:
+null::null
+......e::null
+........d::null
+..........i::null
+............t::revise
+..............e::null
+................d::revised
+..............o::null
+................r::writer
+............c::null
+..............t::order
+......E::null
+........d::null
+..........i::null
+............t::changing
+
+Command: add edition version
+Result from an add: true
+
+Command: showTree
+
+Result from a showTree:
+null::null
+......e::null
+........d::null
+..........i::null
+............t::revise
+..............e::null
+................d::revised
+..............o::null
+................r::writer
+..............i::null
+................o::null
+..................n::version
+............c::null
+..............t::order
+......E::null
+........d::null
+..........i::null
+............t::changing
+
+Command: add editorial opinion
+Result from an add: true
+
+Command: showTree
+
+Result from a showTree:
+null::null
+......e::null
+........d::null
+..........i::null
+............t::revise
+..............e::null
+................d::revised
+..............o::null
+................r::writer
+..................i::null
+....................a::null
+......................l::opinion
+..............i::null
+................o::null
+..................n::version
+............c::null
+..............t::order
+......E::null
+........d::null
+..........i::null
+............t::changing
+
+Command: add edge sharpness
+Result from an add: true
+
+Command: showTree
+
+Result from a showTree:
+null::null
+......e::null
+........d::null
+..........i::null
+............t::revise
+..............e::null
+................d::revised
+..............o::null
+................r::writer
+..................i::null
+....................a::null
+......................l::opinion
+..............i::null
+................o::null
+..................n::version
+............c::null
+..............t::order
+..........g::null
+............e::sharpness
+......E::null
+........d::null
+..........i::null
+............t::changing
+
+Command: search edge
+Result from a search: sharpness
+
+Command: prefix editorialized
+Result from a prefix: editorial
+
+Command: add editorially shorterkey
+Result from an add: true
+
+Command: remove editor
+Result from a remove: writer
+
+Command: showTree
+
+Result from a showTree:
+null::null
+......e::null
+........d::null
+..........i::null
+............t::revise
+..............e::null
+................d::revised
+..............o::null
+................r::null
+..................i::null
+....................a::null
+......................l::opinion
+........................l::null
+..........................y::shorterkey
+..............i::null
+................o::null
+..................n::version
+............c::null
+..............t::order
+..........g::null
+............e::sharpness
+......E::null
+........d::null
+..........i::null
+............t::changing
+

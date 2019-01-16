@@ -1,0 +1,38 @@
+Command: add ISU CS228
+Result from an add: true
+
+Command: add IA Grow
+Result from an add: true
+
+Command: add COMP 228
+Result from an add: true
+
+Command: add IASTATE 2020
+Result from an add: true
+
+Command: add State 525
+Result from an add: true
+
+Command: showTree
+
+Result from a showTree:
+null::null
+......I::null
+........S::null
+..........U::CS228
+........A::Grow
+..........S::null
+............T::null
+..............A::null
+................T::null
+..................E::2020
+......C::null
+........O::null
+..........M::null
+............P::228
+......S::null
+........t::null
+..........a::null
+............t::null
+..............e::525
+

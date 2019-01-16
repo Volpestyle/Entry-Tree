@@ -1,0 +1,6 @@
+add  ISU  CS228
+add  IA   Grow  
+add  COMP 228  
+add  IASTATE 2020
+add  State 525
+showTree
